@@ -13,6 +13,7 @@ def login():
 def tambah():
     return render_template('tambah.html')
 
+
 @app.route('/list')
 def list():
     return render_template('list.html')
